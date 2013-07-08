@@ -1,6 +1,6 @@
 <?php
 
-namespace Tempa\SonataThemeBundle\Twig;
+namespace Raindrop\SonataThemeBundle\Twig;
 
 class Extension extends \Twig_Extension
 {
@@ -12,11 +12,11 @@ class Extension extends \Twig_Extension
 
     public function getGlobals() {
         return array(
-            'tempa_sonata_theme' => $this->theme
+            'raindrop_sonata_theme' => $this->theme
         );
     }
 
     public function getName() {
-        return 'tempa_theme_extension';
+        return 'raindrop_theme_extension';
     }
 }

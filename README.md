@@ -1,7 +1,7 @@
-TempaSonataThemeBundle
+RaindropSonataThemeBundle
 =========================
 
-Tempa themes bundle for SonataAdminBundle
+Raindrop themes bundle for SonataAdminBundle
 
 Themes are taken from http://bootswatch.com/
 
@@ -11,7 +11,7 @@ First add the dependency to your `composer.json` file:
 
     "require": {
         ...
-        "tempa/sonata-theme-bundle": "dev-master"
+        "raindrop/sonata-theme-bundle": "dev-master"
     },
 
 Then install the bundle with the command:
@@ -28,7 +28,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Tempa\SonataThemeBundle\TempaSonataThemeBundle('SonataAdminBundle'),
+        new Raindrop\SonataThemeBundle\RaindropSonataThemeBundle('SonataAdminBundle'),
     );
 }
 ```
@@ -37,7 +37,7 @@ Now the bundle is enabled.
 
 ### **CONFIGURATION**:
 
-    tempa_sonata_theme:
+    raindrop_sonata_theme:
         theme: default
 
 
