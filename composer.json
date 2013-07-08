@@ -1,14 +1,14 @@
 {
-    "name": "raindrop/sonata-theme-bundle",
+    "name": "tempa/sonata-theme-bundle",
     "type": "symfony-bundle",
     "description": "Symfony 2 SonataAdminBundle Themes",
     "keywords": ["theme", "sonata", "admin"],
-    "homepage": "https://github.com/raindropdevs",
+    "homepage": "https://github.com/tempadevs",
     "license": "MIT",
     "authors": [
         {
-            "name": "Raindrop Dev Team",
-            "homepage": "https://github.com/raindropdevs/RaindropSonataThemeBundle/graphs/contributors"
+            "name": "Tempa Dev Team",
+            "homepage": "https://github.com/tempadevs/TempaSonataThemeBundle/graphs/contributors"
         }
     ],
     "minimum-stability": "dev",
@@ -21,9 +21,9 @@
     "suggests": {
     },
     "autoload": {
-        "psr-0": { "Raindrop\\SonataThemeBundle": "" }
+        "psr-0": { "Tempa\\SonataThemeBundle": "" }
     },
-    "target-dir": "Raindrop/SonataThemeBundle",
+    "target-dir": "Tempa/SonataThemeBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"

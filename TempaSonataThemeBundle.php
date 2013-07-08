@@ -1,10 +1,10 @@
 <?php
 
-namespace Raindrop\SonataThemeBundle;
+namespace Tempa\SonataThemeBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class RaindropSonataThemeBundle extends Bundle
+class TempaSonataThemeBundle extends Bundle
 {
     protected $parent;
 

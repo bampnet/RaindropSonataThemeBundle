@@ -1,6 +1,6 @@
 <?php
 
-namespace Raindrop\SonataThemeBundle\DependencyInjection;
+namespace Tempa\SonataThemeBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('raindrop_sonata_theme');
+        $rootNode = $treeBuilder->root('tempa_sonata_theme');
         $rootNode
                 ->children()
                     ->scalarNode('theme')

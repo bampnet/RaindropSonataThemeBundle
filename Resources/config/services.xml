@@ -5,10 +5,10 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="raindrop_sonata_theme.twig_extension" class="Raindrop\SonataThemeBundle\Twig\Extension" public="false">
+        <service id="tempa_sonata_theme.twig_extension" class="Tempa\SonataThemeBundle\Twig\Extension" public="false">
             <tag name="twig.extension" />
             <call method="setTheme">
-                <argument>%raindrop_sonata_theme%</argument>
+                <argument>%tempa_sonata_theme%</argument>
             </call>
         </service>
     </services>
